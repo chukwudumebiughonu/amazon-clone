@@ -3,7 +3,10 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from './Checkout';
+import Login from './Login';
+import Return from './Return';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {Button} from '@material-ui/core'
 function App() {
   return (
     <Router>
@@ -13,7 +16,10 @@ function App() {
 
         <Switch>
           <Route path='/login'>
-            <h1>Login page</h1>
+            <Login/>
+          </Route>
+          <Route path='/return'>
+            <Return/>
           </Route>
           <Route path='/checkout'>
             <Header />
