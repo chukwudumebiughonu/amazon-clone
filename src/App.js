@@ -10,9 +10,10 @@ function App() {
       <div className="app">
         <h1>Hello blonde wife, lets run our precision medicine company 👩🏼🚀</h1>
         <Header />
+
         <Switch>
-          <Route path='/checkout'>
-            <Checkout />
+          <Route path='/login'>
+            <h1>Login page</h1>
           </Route>
           <Route path='/'>
             <Home />
