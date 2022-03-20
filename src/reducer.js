@@ -25,7 +25,7 @@ console.log (action);
             }
             else{
                 console.warn(
-                    `Cant remove product (id: ${action.ide}) as its not in basket!`
+                    `Cant remove product (id: ${action.id}) as its not in basket!`
                 )
             }
             
